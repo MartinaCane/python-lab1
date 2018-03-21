@@ -29,17 +29,14 @@ print("Insert the number corresponding to the action you want to perform: 1. ins
 print("Your choice: ")
 choice=input()
 
-while choice==1:
+if choice==1:
     ask= input()
     tasks=[ask]
     print("You want to add more? Y/N")
     choice2=input()
-
     if choice2=="Y":
         print("Go on")
     tasks.append(input())
-    print(tasks)
-
-        
-else if choice2==N :
-            choice=0
+    print(tasks)    
+       elif choice2==N :
+              choice=0
