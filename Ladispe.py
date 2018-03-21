@@ -1,4 +1,4 @@
-'#Ex 1
+# Ex 1
 '''
 print("Type a number")
 n_a= int(input())
